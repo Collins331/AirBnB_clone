@@ -1,13 +1,13 @@
 # AirBnB clone
 
-![AirBnB_clone](https://github.com/Collins331/AirBnB_clone/blob/main/hbnb.png)
+![AirBnB_clone](https://github.com/Collins331/AirBnB_clone/blob/main/images/hbnb.png)
 
 The aim of the project is to develop and deploy a simple website of [AirBnb](https://www.airbnb.com/)
-![Airbnb Dashboard](https://github.com/Collins331/AirBnB_clone/blob/main/Airbnb.png)
+![Airbnb Dashboard](https://github.com/Collins331/AirBnB_clone/blob/main/images/Airbnb.png)
 
 
 # "Structure of the project"
-![Console](https://github.com/Collins331/AirBnB_clone/blob/main/console_airbnb.png)
+![Console](https://github.com/Collins331/AirBnB_clone/blob/main/images/console_airbnb.png)
 
 
 `Storage engine -> JSON file.`
@@ -139,18 +139,18 @@ The program will create a file called: `file.json` whenever you create a new mod
 
 Executing help command.
 
-![Help](https://github.com/Collins331/AirBnB_clone/blob/master/images/help.gif)
+![Help](https://github.com/Collins331/AirBnB_clone/blob/main/images/help.gif)
 
 Getting help for a command
 
-![Help update](https://github.com/Collins331/AirBnB_clone/blob/master/images/help%20update.gif)
+![Help update](https://github.com/Collins331/AirBnB_clone/blob/main/images/help%20update.gif)
 
 Creating a new user, showing the ID, and updating the fields
 
-![Create & Update](https://github.com/Collins331/AirBnB_clone/blob/master/images/create%20user%20and%20update.gif)
+![Create & Update](https://github.com/Collins331/AirBnB_clone/blob/main/images/create%20user%20and%20update.gif)
 
 Creating a new base model, counting the base model, deleting, and counting again
 
-![Destroy](https://github.com/Collins331/AirBnB_clone/blob/master/images/destroy.gif)
+![Destroy](https://github.com/Collins331/AirBnB_clone/blob/main/images/destroy.gif)
 
 Coded with ❤️ by [Collins Ochieng](https://github.com/Collins331)
