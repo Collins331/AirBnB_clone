@@ -2,7 +2,7 @@
 
 ![AirBnB_clone](https://github.com/Collins331/AirBnB_clone/blob/main/hbnb.png)
 
-The aim the project is to develop and deploy a simple website of [AirBnb](https://www.airbnb.com/)
+The aim of the project is to develop and deploy a simple website of [AirBnb](https://www.airbnb.com/)
 ![Airbnb Dashboard](https://github.com/Collins331/AirBnB_clone/blob/main/Airbnb.png)
 
 
@@ -10,12 +10,12 @@ The aim the project is to develop and deploy a simple website of [AirBnb](https:
 ![Console](https://github.com/Collins331/AirBnB_clone/blob/main/console_airbnb.png)
 
 
-`Storage engine -> Json file.`
+`Storage engine -> JSON file.`
 `Console -> cmd with python library cmd.Cmd`
 
 # Description of the project
 
-This is the first part of the project that simulates an airbnb application in which we are creating a way to control the modules that our web page is going to use by intervening a database in json format. Here we apply object oriented programming, python data translation and command interpreted logic to deliver a local database that can be modified by commands.
+This is the first part of the project that simulates an Airbnb application in which we are creating a way to control the modules that our web page is going to use by intervening a database in JSON format. Here we apply object-oriented programming, python data translation, and command-interpreted logic to deliver a local database that can be modified by commands.
 
 # Prerequisites 
 
@@ -29,7 +29,7 @@ sudo apt-get install python3
 To have access to the console use the following command:
 
 ```
-git clone https://github.com/daorejuela1/AirBnB_clone.git; cd AirBnB_clone
+git clone https://github.com/Collins331/AirBnB_clone.git && cd AirBnB_clone
 ```
 
 # Run
@@ -46,7 +46,7 @@ or
 
 # Testing 
 
-If you want to personalize the classes and execute unit tests to confirm that your changes haven't modify the functionality use:
+If you want to personalize the classes and execute unit tests to confirm that your changes haven't modified the functionality use the:
 
 ```
 python3 -m unittest discover tests
@@ -57,10 +57,10 @@ python3 -m unittest discover tests
 ## Available commands
 |Command| Explanation |
 |--|--|
-| create | Creates a new instance of `BaseModel`, saves it (to the JSON file) and prints the `id`. Ex: `$ create BaseModel`  |
+| create | Creates a new instance of `BaseModel`, saves it (to the JSON file), and prints the `id`. Ex: `$ create BaseModel`  |
 | show | Prints the string representation of an instance based on the class name and `id`. Ex: `$ show BaseModel 1234-1234-1234` |
-| all | Prints all string representation of all instances based or not on the class name. Ex: `$ all BaseModel` |
-| update | Updates an instance based on the class name and `id` by adding or updating attribute (save the change into the JSON file). Ex: `$ update BaseModel 1234-1234-1234 email "aibnb@holbertonschool.com"` |
+| all | Prints all string representations of all instances based or not on the class name. Ex: `$ all BaseModel` |
+| update | Updates an instance based on the class name and `id` by adding or updating the attribute (save the change into the JSON file). Ex: `$ update BaseModel 1234-1234-1234 email "aibnb@holbertonschool.com"` |
 
 ## Normal command input
 
@@ -102,13 +102,13 @@ python3 -m unittest discover tests
 $ ./console.py
 ```
 
-Now you are on interactive mode and you will see the prompt `(hbnb)`
+Now you are in interactive mode and you will see the prompt `(hbnb)`
 input a command:
 
 ```
 (hbnb) create User
 ```
-the id of the created model will be visible in the standard output, if you do:
+The ID of the created model will be visible in the standard output if you do:
 
 ```
 (hbnb) show User [id]
@@ -133,24 +133,24 @@ $ echo "create User" | ./console.py
 $ echo "help" | ./console.py
 ```
 
-The program will create a file called: `file.json` whenever you create a new model, it'll be store in the top folder.
+The program will create a file called: `file.json` whenever you create a new model, it'll be stored in the top folder.
 
 ## Examples
 
 Executing help command.
 
-![Help](https://github.com/daorejuela1/AirBnB_clone/blob/master/images/help.gif)
+![Help](https://github.com/Collins331/AirBnB_clone/blob/master/images/help.gif)
 
 Getting help for a command
 
-![Help update](https://github.com/daorejuela1/AirBnB_clone/blob/master/images/help%20update.gif)
+![Help update](https://github.com/Collins331/AirBnB_clone/blob/master/images/help%20update.gif)
 
-Creating a new user, showing the ID and updating the fields
+Creating a new user, showing the ID, and updating the fields
 
-![Create & Update](https://github.com/daorejuela1/AirBnB_clone/blob/master/images/create%20user%20and%20update.gif)
+![Create & Update](https://github.com/Collins331/AirBnB_clone/blob/master/images/create%20user%20and%20update.gif)
 
-Creating a new basemodel, counting basemodel, delete and count again
+Creating a new base model, counting the base model, deleting, and counting again
 
-![Destroy](https://github.com/daorejuela1/AirBnB_clone/blob/master/images/destroy.gif)
+![Destroy](https://github.com/Collins331/AirBnB_clone/blob/master/images/destroy.gif)
 
 Coded with ❤️ by [Collins Ochieng](https://github.com/Collins331)
